@@ -1,0 +1,10 @@
+<h1>Reddit Scraper</h1>
+<div>
+    {{#each articles}}
+    <a href={{link}}>
+        <h3>{{title}}</h3>
+    </a>
+     <button id={{id}} onClick="saveArticle(this)">Save</button>
+    {{/each}}
+    
+</div>
